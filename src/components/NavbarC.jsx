@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import FormControl from 'react-bootstrap/FormControl';
-import logoImage from '../images/Logo.png';
+import logoImage from '../images/logo.png';
 import '../css/NavbarC.css';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
