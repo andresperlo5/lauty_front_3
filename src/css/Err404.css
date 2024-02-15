@@ -1,0 +1,55 @@
+.fondo-img {
+    background-image: url(../images/Error404.jpg);
+
+    background-position: center; 
+    
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+
+    width: 100vw;
+    
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+}
+
+@media(max-width:995px){
+    .fondo-img {
+
+        background-image: url(../images/Error404.jpg);
+        
+   
+        background-size: cover; 
+        
+ 
+        background-position: center; 
+        
+    
+        background-repeat: no-repeat;
+        
+        height: 100vh;
+
+        width: 100vw;
+        
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center; 
+    }
+    
+}
+
+.button-retroced{
+    position: fixed; /* Mantiene el botón fijo en la pantalla */
+    bottom: 10px; /* Espaciado desde el fondo de la pantalla */
+    left: 50%; /* Centra el botón horizontalmente */
+    transform: translateX(-50%); /* Ajusta el centrado debido al posicionamiento left */
+    /* Añade cualquier otro estilo que necesites */
+}
+
+
