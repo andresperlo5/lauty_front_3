@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Logo from "../images/Logo.png";
+import Logo from "../images/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import QR from "../images/QR-DATA.jpg";
-import "../css/Footer.css";
 import { Link } from 'react-router-dom';
+import "../css/Footer.css";
 
 const FooterC = () => {
   return (
